@@ -1,6 +1,12 @@
 {
-  "subdomain": "test",
+  "subdomain": "example",
+  "owner": {
+    "repo": "https://github.com/cooldev/coolproject",
+    "email": "navdeep13dps@example.com",
+    "name": "Navdeep Singh"
+  },
   "record": {
-    "A": ["1.2.3.4"]
+    "A": ["1.2.3.4"],
+    "CNAME": "example.com"
   }
 }
