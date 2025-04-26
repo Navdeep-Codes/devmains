@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free is-open-source.org Subdomain</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-book"></i>Free is-open-source.org Subdomain</h1>
+            <p class="tagline">Get a free is-open-source.org subdomain for your open-source project! </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="how-it-works">
+            <h2><i class="fas fa-star"></i> How it works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>You make a Pull Request (PR) to this repo.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Add a JSON file inside the domains/ folder.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Our system will automatically update the DNS and give you your subdomain!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-request">
+            <h2><i class="fas fa-edit"></i> How to request a subdomain</h2>
+            <ol class="request-steps">
+                <li>Fork this repository.</li>
+                <li>Create a new JSON file inside the domains/ folder.</li>
+                <li>Name your file something like yourproject.json.</li>
+                <li>Use this example template:</li>
+            </ol>
+            
+            <div class="code-block">
+                <div class="code-header">
+                    <span>JSON</span>
+                    <button class="copy-btn" onclick="copyCode('template1')">Copy</button>
+                </div>
+                <pre id="template1"><code>{
+  "subdomain": "example",
+  "owner": {
+    "repo": "https://github.com/yourgithubusername/reponame",
+    "email": "example@example.com",
+    "name": "Your Name"
+  },
+  "record": {
+    "CNAME": "yourhosting.com"
+  }
+}</code></pre>
+            </div>
+            
+            <p>If you use an IP address instead of a domain, you can also use an A record like this:</p>
+            
+            <div class="code-block">
+                <div class="code-header">
+                    <span>JSON</span>
+                    <button class="copy-btn" onclick="copyCode('template2')">Copy</button>
+                </div>
+                <pre id="template2"><code>{
+  "subdomain": "example",
+  "owner": {
+    "repo": "https://github.com/yourgithubusername/reponame",
+    "email": "example@example.com",
+    "name": "Your Name"
+  },
+  "record": {
+    "A": ["1.2.3.4"]
+  }
+}</code></pre>
+            </div>
+        </section>
+
+        <section id="rules">
+            <h2><i class="fas fa-check-circle"></i> Rules</h2>
+            <ul class="rules-list"
+                <li>Your project must have 5+ hours on [Hackatime!](https://hackatime.hackclub.com/)</li>
+                <li>Your project must be open-source.</li>
+                <li>Your repo should have a proper README and description.</li>
+                <li>Don't request silly, spam, or unrelated subdomains.</li>
+                <li>Your website must accept your subdomain (if using CNAME).</li>
+                <li>We manually review each request (no auto-approval).</li>
+            </ul>
+        </section>
+
+        <section id="after-submit">
+            <h2><i class="fas fa-hourglass-half"></i> What happens after you submit?</h2>
+            <ul class="after-submit-list">
+                <li>Your Pull Request will be reviewed.</li>
+                <li>If accepted, it will be merged.</li>
+                <li>Your DNS record will be updated automatically!</li>
+                <li>It can take a few minutes to 1 hour to be live.</li>
+            </ul>
+        </section>
+
+        <section id="help">
+            <h2><i class="fas fa-envelope"></i> Need help?</h2>
+            <p>Open an Issue or contact us via email:</p>
+            <a href="mailto:navdeep13dps@gmail.com" class="email-link">navdeep13dps@gmail.com</a>
+        </section>
+
+        <section id="conclusion">
+            <h2><i class="fas fa-party-horn"></i> That's it! Welcome to the is-open-source.org family!</h2>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 is-open-source.org Subdomain Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
