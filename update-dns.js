@@ -46,6 +46,7 @@ async function createRecord(type, name, content) {
       name,
       content,
       ttl: 1,
+      proxied: false,
     }),
   });
 }
