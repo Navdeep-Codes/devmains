@@ -75,5 +75,5 @@ async function createRecord(type, name, content) {
     }
   }
 
-  console.log('✅ DNS Update Completed.');
+  console.log(`✅ Created ${fullDomain}`);
 })();
