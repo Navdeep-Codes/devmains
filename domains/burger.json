@@ -1,0 +1,11 @@
+{
+  "subdomain": "burger", 
+  "owner": {
+    "repo": "https://github.com/Navdeep-Codes/BurgerYSWS", 
+    "email": "navdeep13dps@gmail.com",
+    "name": "Navdeep Singh"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.coms" 
+  }
+}
