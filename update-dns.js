@@ -2,6 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
+process.on('unhandledRejection', err => {
+  console.error('❌ Unhandled error:', err);
+  process.exit(1);
+});
+
 const CF_API_TOKEN = process.env.CF_API_TOKEN;
 const CF_ZONE_ID = process.env.CF_ZONE_ID;
 const DOMAIN = process.env.DOMAIN;
@@ -67,13 +72,13 @@ async function createRecord(type, name, content) {
       if (data.record.A) {
         for (const ip of data.record.A) {
           await createRecord('A', fullDomain, ip);
+          console.log(`✅ Created A record for ${fullDomain} -> ${ip}`);
         }
       }
       if (data.record.CNAME) {
         await createRecord('CNAME', fullDomain, data.record.CNAME);
+        console.log(`✅ Created CNAME record for ${fullDomain} -> ${data.record.CNAME}`);
       }
     }
   }
-
-  console.log(`✅ Created ${fullDomain}`);
 })();
