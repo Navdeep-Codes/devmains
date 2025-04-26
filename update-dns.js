@@ -45,7 +45,7 @@ async function createRecord(type, name, content) {
       type,
       name,
       content,
-      ttl: 3600,
+      ttl: 1,
     }),
   });
 }
