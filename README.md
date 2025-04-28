@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Devmains-Free_Dev_Subdomains-2ea44f?style=flat-square)
 
-Welcome to **Devmains** — a service that gives you free subdomains like `yourname.is-open-source.org` and more!  
+Welcome to **Devmains** — a service that gives you free subdomains like `subdomain.is-open-source.org` and more!  
 We aim to help developers easily get a free subdomain for their open-source projects.
 
 ---
