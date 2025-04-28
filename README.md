@@ -1,13 +1,13 @@
 # Devmains 🌍
 
-![Badge](https://img.shields.io/badge/Devmains-Free_Subdomains-2ea44f?style=flat-square)
+![Badge](https://img.shields.io/badge/Devmains-Free_Dev_Subdomains-2ea44f?style=flat-square)
 
 Welcome to **Devmains** — a service that gives you free subdomains like `yourname.is-open-source.org` and more!  
 We aim to help developers easily get a free subdomain for their open-source projects.
 
 ---
 
-## 🚀 How to Get a Free Subdomain
+## How to Get a Free Subdomain?
 
 1. **Fork** this repo.
 2. **Pick a domain folder** inside `/domains/` (example: `is-open-source.org/`).
@@ -50,11 +50,11 @@ We aim to help developers easily get a free subdomain for their open-source proj
 
 ---
 
-## 📜 Rules and Notes
+## Rules and Notes
 
 - **Subdomains** must have **5+ hrs on Hackatime/Wakatime**
 - **The `is-open-source.org` subdomain is given for free** but the project must be a **open-source projects**.
-- **Only CNAME or A records are allowed.**
+- **Only CNAME or A records are allowed.** (Support of other types are coming soon).
 - **TTL is set to Auto** (automatic adjustment based on Cloudflare).
 - **DNS records are NOT proxied** (no Cloudflare proxy — direct DNS only).
 - Make sure **your hosting** is ready to accept the domain.
@@ -63,8 +63,11 @@ We aim to help developers easily get a free subdomain for their open-source proj
 
 ---
 
-## 📄 License
+## License
 
 MIT License © Devmains Team
 
 ---
+## Donations
+### All the donators will get the 5+ hr rule reduced to 3+ hrs.
+### All the donators will get **Cloudflare proxy** 
