@@ -69,5 +69,8 @@ MIT License © Devmains Team
 
 ---
 ## Donations
-### All the donators will get the 5+ hr rule reduced to 3+ hrs.
-### All the donators will get **Cloudflare proxy** 
+### Donator Perks
+- All the donators will get the 5+ hr rule reduced to 3+ hrs.
+- All the donators will get **Cloudflare proxy**.
+### How to Donate
+Currently we only support domain transfers donations. If someone wants to donate a domain they have bought(any platform) to us. please reach out to us in the `#devmains-hq` or `#devmains-help` slack channels. 
