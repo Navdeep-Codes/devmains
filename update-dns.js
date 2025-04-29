@@ -34,13 +34,12 @@ async function createRecord(record) {
     type: record.type,
     name: record.name,
     content: record.content,
-    ttl: 1, // Auto TTL
-    proxied: false, // Not proxied by default
+    ttl: 1, 
+    proxied: false, 
   };
 
-  // Add optional fields if present (for MX, SRV, etc.)
   if ('priority' in record) body.priority = record.priority;
-  if ('data' in record) Object.assign(body, record.data); // e.g., for SRV
+  if ('data' in record) Object.assign(body, record.data); 
 
   await fetch(API_BASE, {
     method: 'POST',
@@ -67,7 +66,6 @@ async function createRecord(record) {
       const subdomain = data.subdomain.toLowerCase();
       const fullDomain = `${subdomain}.${domain}`;
 
-      // Delete old records for this subdomain
       const toDelete = currentRecords.filter(r => r.name === fullDomain);
       for (const rec of toDelete) {
         await deleteRecord(rec.id);
