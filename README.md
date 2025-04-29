@@ -7,6 +7,21 @@ We aim to help developers easily get a free subdomain for their projects.
 
 ---
 
+## Rules and Notes
+
+- Star the repo! (optional)
+- **Subdomains** must have **5+ hrs on Hackatime/Wakatime**
+- **The `is-open-source.org` subdomain is given for free** but the project must be a **open-source projects**.
+- **Only CNAME or A records are allowed.** (Support of other types are coming soon).
+- **TTL is set to Auto** (automatic adjustment based on Cloudflare).
+- **DNS records are NOT proxied** (no Cloudflare proxy — direct DNS only).
+- Make sure **your hosting** is ready to accept the domain.
+- Do not request domains for malicious, harmful, illegal, or copyrighted content.
+- Admins reserve the right to **deny requests** without explanation if necessary.
+
+---
+---
+
 ## How to Get a Free Subdomain?
 
 1. **Fork** this repo.
