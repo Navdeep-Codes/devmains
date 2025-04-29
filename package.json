@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Automated DNS record management for Devmains.",
   "main": "update-dns.js",
-  "type": "module",
   "scripts": {
     "update": "node update-dns.js"
   },
