@@ -1,4 +1,4 @@
-# Devmains 🌍
+# Devmains 
 
 ![Badge](https://img.shields.io/badge/Devmains-Free_Dev_Subdomains-2ea44f?style=flat-square)
 
@@ -20,8 +20,6 @@ We aim to help developers easily get a free subdomain for their projects.
 - Admins reserve the right to **deny requests** without explanation if necessary.
 
 ---
----
-
 ## How to Get a Free Subdomain?
 
 1. **Fork** this repo.
@@ -48,7 +46,7 @@ We aim to help developers easily get a free subdomain for their projects.
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 /domains
