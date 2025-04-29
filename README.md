@@ -37,7 +37,12 @@ We aim to help developers easily get a free subdomain for their projects.
     "name": "Your Name"
   },
   "record": {
-    "CNAME": "yourhosting.com"
+    "A": ["1.2.3.4"],
+    "CNAME": "example.com",
+    "TXT": ["v=spf1 include:_spf.google.com ~all"],
+    "MX": [
+      { "content": "mail.example.com", "priority": 10 }
+    ]
   }
 }
 ```
