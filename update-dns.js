@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 const CF_API_TOKEN = process.env.CF_API_TOKEN;
 const CF_ZONE_ID = process.env.CF_ZONE_ID;
