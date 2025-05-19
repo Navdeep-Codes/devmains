@@ -1,0 +1,11 @@
+{
+  "subdomain": "sdheeraj",
+  "owner": {
+    "repo": "https://github.com/17sdheeraj/my-portfolio",
+    "email": "isopensource.domain@sdheeraj.is-cool.dev",
+    "name": "S Dheeraj"
+  },
+  "record": {
+    "CNAME": "17sdheeraj.github.io"
+  }
+}
