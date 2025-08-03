@@ -1,0 +1,13 @@
+{
+  "subdomain": "vtx",
+  "owner": {
+    "repo": "https://github.com/SkyfallWasTaken/vortex.email",
+    "email": "hi@skyfall.dev",
+    "name": "Mahad Kalam"
+  },
+  "record": {
+    "MX": [
+      { "content": "sequoia.dino.icu", "priority": 50 }
+    ]
+  }
+}
