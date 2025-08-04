@@ -14,9 +14,21 @@ async function getCurrentRecords() {
       'Content-Type': 'application/json',
     },
   });
+
+  if (!res.ok) {
+    throw new Error(`Cloudflare API error: ${res.status} ${res.statusText}`);
+  }
+
   const data = await res.json();
-  return data.result;
+
+  if (!data.success) {
+    console.error('Cloudflare API returned errors:', data.errors);
+    throw new Error('Failed to fetch DNS records');
+  }
+
+  return data.result || [];
 }
+
 
 async function deleteRecord(id) {
   await fetch(`${API_BASE}/${id}`, {
