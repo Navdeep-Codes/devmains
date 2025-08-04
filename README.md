@@ -11,7 +11,6 @@ We aim to help developers easily get a free subdomain for their projects.
 ## Rules and Notes
 
 - Star the repo! (optional)
-- **Subdomains** must have **5+ hrs on Hackatime/Wakatime**
 - **The `is-open-source.org` subdomain is given for free** but the project must be a **open-source projects**.
 - **Only CNAME or A records are allowed.** (Support of other types are coming soon).
 - **TTL is set to Auto** (automatic adjustment based on Cloudflare).
@@ -71,7 +70,6 @@ We aim to help developers easily get a free subdomain for their projects.
 
 ## Rules and Notes
 
-- **Subdomains** must have **5+ hrs on Hackatime/Wakatime**
 - **The `is-open-source.org` subdomain is given for free** but the project must be a **open-source projects**.
 - **Only CNAME or A records are allowed.** (Support of other types are coming soon).
 - **TTL is set to Auto** (automatic adjustment based on Cloudflare).
